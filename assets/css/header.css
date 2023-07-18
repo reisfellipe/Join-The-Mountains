@@ -1,34 +1,47 @@
 header {
-    margin: 30px 45px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.brand {
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
+
+header .navbar-menu {
     display: flex;
     flex-direction: row;
 }
 
-header nav {
-    display: flex;
-}
-
-header nav ul {
+header .navbar-menu ul {
     font-size: 18px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
-header nav ul li {
-    display: inline-block;
-    
+header .navbar-menu ul li {
+    display:flex;
+    justify-content: center;
 }
 
-header nav ul li a {
-    display: inline-block;
+header .navbar-menu ul li a {
     text-decoration: none;
     color: white;
     margin: 10px 19px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
 }
 
-header nav img {
-    display: inline-block;
-    justify-content: end;
-    flex-direction: row-reverse;
-
+header img {
+    position: absolute;
+    right: 50px;
+    top: 22px;
 }
