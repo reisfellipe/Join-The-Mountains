@@ -3,6 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image:linear-gradient(to top, #0b1d2600, #0b1d264f);
 }
 
 .brand {
@@ -10,6 +11,8 @@ header {
     display: flex;
     position: absolute;
     left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 header .navbar-menu {

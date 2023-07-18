@@ -6,8 +6,11 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background-image: linear-gradient(to right, #042326, #0A3A40, #1D7373);
+    background-image: url('../images/mountains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+/* background-image: linear-gradient(to right, #042326, #0A3A40, #1D7373)*/
 
 .card-01 .card-01-content {
     display: flex;
@@ -38,6 +41,7 @@
     margin-right: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
+    letter-spacing: 2px;
 } 
 
 /*SOCIAL MEDIA LEFT*/
